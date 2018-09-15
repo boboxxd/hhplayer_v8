@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/hhplayer_v8.dir/main.cpp.o  -o hhplayer_v8 

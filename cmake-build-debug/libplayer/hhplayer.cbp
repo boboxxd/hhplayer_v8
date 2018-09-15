@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="hhplayer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\demo\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\libplayer\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/xxd/CLionProjects/hhplayer_v8/cmake-build-debug/libplayer"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/xxd/CLionProjects/hhplayer_v8/cmake-build-debug/libplayer/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/xxd/CLionProjects/hhplayer_v8/cmake-build-debug/libplayer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/xxd/CLionProjects/hhplayer_v8/cmake-build-debug/libplayer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/xxd/CLionProjects/hhplayer_v8/cmake-build-debug/libplayer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hhplayer">
+				<Option output="/home/xxd/CLionProjects/hhplayer_v8/cmake-build-debug/libplayer/libhhplayer.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xxd/CLionProjects/hhplayer_v8/cmake-build-debug/libplayer"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/xxd/CLionProjects/hhplayer_v8/libplayer/../thirtparty/hcnetsdk/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/xxd/CLionProjects/hhplayer_v8/cmake-build-debug/libplayer/Makefile&quot;  VERBOSE=1 hhplayer"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/xxd/CLionProjects/hhplayer_v8/cmake-build-debug/libplayer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/xxd/CLionProjects/hhplayer_v8/cmake-build-debug/libplayer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/xxd/CLionProjects/hhplayer_v8/cmake-build-debug/libplayer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hhplayer/fast">
+				<Option output="/home/xxd/CLionProjects/hhplayer_v8/cmake-build-debug/libplayer/libhhplayer.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xxd/CLionProjects/hhplayer_v8/cmake-build-debug/libplayer"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/xxd/CLionProjects/hhplayer_v8/libplayer/../thirtparty/hcnetsdk/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/xxd/CLionProjects/hhplayer_v8/cmake-build-debug/libplayer/Makefile&quot;  VERBOSE=1 hhplayer/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/xxd/CLionProjects/hhplayer_v8/cmake-build-debug/libplayer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/xxd/CLionProjects/hhplayer_v8/cmake-build-debug/libplayer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/xxd/CLionProjects/hhplayer_v8/cmake-build-debug/libplayer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/xxd/CLionProjects/hhplayer_v8/libplayer/HCNetplayerImpl.cpp">
+			<Option target="hhplayer"/>
+		</Unit>
+		<Unit filename="/home/xxd/CLionProjects/hhplayer_v8/libplayer/HCNetplayerImpl.h">
+			<Option target="hhplayer"/>
+		</Unit>
+		<Unit filename="/home/xxd/CLionProjects/hhplayer_v8/libplayer/hhplayerfactory.cpp">
+			<Option target="hhplayer"/>
+		</Unit>
+		<Unit filename="/home/xxd/CLionProjects/hhplayer_v8/libplayer/hhplayerfactory.h">
+			<Option target="hhplayer"/>
+		</Unit>
+		<Unit filename="/home/xxd/CLionProjects/hhplayer_v8/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/xxd/CLionProjects/hhplayer_v8/demo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\demo\"/>
+		</Unit>
+		<Unit filename="/home/xxd/CLionProjects/hhplayer_v8/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/xxd/CLionProjects/hhplayer_v8/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/xxd/CLionProjects/hhplayer_v8/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/xxd/CLionProjects/hhplayer_v8/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/xxd/CLionProjects/hhplayer_v8/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/xxd/CLionProjects/hhplayer_v8/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/xxd/CLionProjects/hhplayer_v8/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/xxd/CLionProjects/hhplayer_v8/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/xxd/CLionProjects/hhplayer_v8/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/xxd/CLionProjects/hhplayer_v8/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/xxd/CLionProjects/hhplayer_v8/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/xxd/CLionProjects/hhplayer_v8/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/xxd/CLionProjects/hhplayer_v8/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/xxd/CLionProjects/hhplayer_v8/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/xxd/CLionProjects/hhplayer_v8/libplayer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libplayer\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

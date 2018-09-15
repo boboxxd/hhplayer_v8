@@ -1,0 +1,5 @@
+-I/home/xxd/CLionProjects/hhplayer_v8/demo
+-I/home/xxd/CLionProjects/hhplayer_v8/cmake-build-debug/demo
+-o
+/home/xxd/CLionProjects/hhplayer_v8/cmake-build-debug/demo/moc_widget.cpp
+/home/xxd/CLionProjects/hhplayer_v8/demo/widget.h
